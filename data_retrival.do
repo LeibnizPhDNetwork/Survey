@@ -34,13 +34,12 @@ cd ${input}
 unicode analyze "results_survey_2017-12-12.dta", redo
 unicode encoding set ISO-8859-1
 unicode translate "results_survey_2017-12-12.dta", transutf8
-unicode retranslate "results_survey_2017-12-12.dta", transutf8
+
 use "${input}/results_survey_2017-12-12.dta", clear
 
 
 * ============================================================================
 
-* demographics
 
 * gender ("I prefer not to answer" has been coded as missing.)
 
@@ -249,10 +248,6 @@ replace salary_percent = 8 if B_2_1__What_is_the_level_of_paym == "Other"
 
 label variable salary_percent "%-level of salary of E13"
 label define salary_percent 0 "I don't know." 1 "100%" 2 "76 - 99%" 3 "66 - 75%" 4 "51 - 65%" 5 "50%" 6 "25 - 49%" 7 "< 25%" 8 "Other"
-
-
-
-
 
 
 * ============================================================================
