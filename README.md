@@ -13,6 +13,7 @@ Code the following answers as follows:
 „Don’t know“ to 99;
 „Prefer not to answer“ to 98;
  „Other“ to 97;
+ "N/A" to 96.
  
 Keep original names of the vriables, e.g. „c_4“
 
