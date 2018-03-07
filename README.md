@@ -1,9 +1,6 @@
 # This is the documentation of the first survey of the Leibniz PhD Network
 
-# Guidelines for the data retrival
-
-
-
+# Guidelines for the Data Preparation
 
 Code binary variables such that 0 refers to "No" and 1 to "Yes"
 
