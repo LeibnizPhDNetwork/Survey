@@ -12,7 +12,7 @@ Code the following answers as follows:
  „Other“ to 97;
  "N/A" to 96.
  
-Keep original names of the vriables, e.g. „c_4“
+Keep original names of the vriables, e.g. „c_4“. Numerical numbers will get an n as suffix.
 
 Example for a loop:
  
